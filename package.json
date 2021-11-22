@@ -1,0 +1,19 @@
+{
+  "name": "kistan-doc",
+  "version": "0.0.1",
+  "description": "Documentation for everything in Kistan 2.0",
+  "main": "index.js",
+  "authors": {
+    "name": "Sture IN-Sektionen",
+    "email": "sture@insektionen.se"
+  },
+  "repository": "github.com/insektionen/kistan-doc/kistan-doc",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
