@@ -1,1 +1,1 @@
-# The DALI protocol is used for "normal" roof lights
+# DALI Lights

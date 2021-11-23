@@ -1,1 +1,1 @@
-# DMX is used for disco lights and LED-spots on the wall
+# DMX

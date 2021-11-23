@@ -34,7 +34,28 @@ module.exports = {
         lastUpdated: true,
         nav: [
             {
-                text: "Sound",
+                text: 'Drawings',
+                items: [
+                    {
+                        text: 'Furniture',
+                        link: '/drawings/furniture/',
+                    },
+                    {
+                        text: 'Sound cables',
+                        link: '/drawings/sound_cables/',
+                    },
+                    {
+                        text: 'DMX network',
+                        link: '/drawings/dmx_net/'
+                    },
+                    {
+                        text: 'Roof LED',
+                        link: '/drawings/roof_led/',
+                    },
+                ]
+            },
+            {
+                text: 'Sound',
                 items: [
                     {
                         text: 'Inputs/Outputs',
@@ -47,7 +68,7 @@ module.exports = {
                 ],
             },
             {
-                text: "Lights",
+                text: 'Lights',
                 items: [
                     {
                         text: 'DALI',
@@ -68,7 +89,41 @@ module.exports = {
                 link: 'https://insektionen.se',
             },
         ],
-        sidebar: {}
+        sidebar: {
+            '/drawings/': [
+                {
+                    title: 'Drawings',
+                    collapsable: false,
+                    children: [
+                        '/drawings/furniture',
+                        '/drawings/sound_cables',
+                        '/drawings/dmx_net',
+                        '/drawings/roof_led',
+                    ]
+                }
+            ],
+            '/sound/': [
+                {
+                    title: 'Sound',
+                    collapsable: false,
+                    children: [
+                        '/sound/in_out/',
+                        '/sound/mixer/',
+                    ]
+                }
+            ],
+            '/lights/': [
+                {
+                    title: 'Lights',
+                    collapsable: false,
+                    children: [
+                        '/lights/dali/',
+                        '/lights/dmx/',
+                        '/lights/roof_led/',
+                    ]
+                }
+            ]
+        }
     },
 
     /**

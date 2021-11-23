@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: https://raw.githubusercontent.com/insektionen/presskit/master/namnder/smn/smn.svg
 tagline: Documentation for everything in Kistan 2.0
 features:
 - title: Lights
