@@ -82,6 +82,10 @@ module.exports = {
                         text: 'Roof LED',
                         link: '/lights/roof_led/',
                     },
+                    {
+                        text: 'LMixer',
+                        link: '/lights/lmixer/'
+                    }
                 ],
             },
             {
