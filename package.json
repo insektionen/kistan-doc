@@ -9,11 +9,15 @@
   },
   "repository": "github.com/insektionen/kistan-doc/kistan-doc",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "dev": "vuepress dev src/",
+    "build": "vuepress build src/",
+    "serve": "http-server src/.vuepress/dist -p 8080 --cors"
   },
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "http-server": "^14.0.0"
   }
 }
