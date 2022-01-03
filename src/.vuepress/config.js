@@ -18,7 +18,10 @@ module.exports = {
     head: [
         ['meta', {name: 'theme-color', content: '#3eaf7c'}],
         ['meta', {name: 'apple-mobile-web-app-capable', content: 'yes'}],
-        ['meta', {name: 'apple-mobile-web-app-status-bar-style', content: 'black'}]
+        ['meta', {
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: 'black'
+        }]
     ],
 
     /**
@@ -116,14 +119,33 @@ module.exports = {
                     ]
                 }
             ],
-            '/lights/': [
+            '/lights/dmx/': [
                 {
-                    title: 'Lights',
+                    title: 'DMX',
+                    collapsable: false,
+                    children: [
+                        '/lights/dmx/',
+                        '/lights/dmx/kistan',
+                    ]
+                }
+            ],
+            '/lights/dali': [
+                {
+                    title: 'DALI',
                     collapsable: false,
                     children: [
                         '/lights/dali/',
-                        '/lights/dmx/',
-                        '/lights/roof_led/',
+                    ]
+                }
+            ],
+            '/lights/lmixer/': [
+                {
+                    title: 'LMixer',
+                    collapsable: false,
+                    children: [
+                        '/lights/lmixer/',
+                        '/lights/lmixer/scripting',
+                        '/lights/lmixer/examples',
                     ]
                 }
             ]

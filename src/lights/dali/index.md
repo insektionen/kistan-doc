@@ -15,8 +15,9 @@ Lamps can be sent commands either by their address (single light) or groups
 (multiple lights). There is also a global group for 'everything' with the group
 value `255`.
 
-DALI commands are sent by the cmd-tool `dalicmd` on the IN-2 server and usually
-by executing the command in the LMixer interface.
+DALI commands are sent by the
+cmd-tool `dalicmd`([https://github.com/Daedaluz/dalicmd][2]) on the IN-2 server
+and usually by executing the command in the LMixer interface.
 
 ```lua
 master:add(0, execute("dalicmd -g 255 -c 16"))
@@ -86,5 +87,7 @@ lights and their addresses in Kistan.
 `dalicmd -g 3 -c 5 && dalicmd -g 4 -c 5`
 
 [1]: /assets/DALI_IEC-60929.pdf
+
+[2]: https://github.com/Daedaluz/dalicmd
 
 [dali_map]: ./images/dali_lamps.svg
