@@ -145,6 +145,7 @@ module.exports = {
                     children: [
                         '/lights/lmixer/',
                         '/lights/lmixer/scripting',
+                        '/lights/lmixer/mixing',
                         '/lights/lmixer/examples',
                     ]
                 }

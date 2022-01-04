@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920mm"
+   height="1080mm"
+   viewBox="0 0 7256.6931 4081.8898"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="fades.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:snap-global="true"
+     scale-x="1"
+     inkscape:zoom="0.11858398"
+     inkscape:cx="2373.8451"
+     inkscape:cy="1910.0388"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="Fade_Dark">
+      <stop
+         style="stop-color:#0e00ff;stop-opacity:1"
+         offset="0"
+         id="stop1382" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:0.2"
+         offset="1"
+         id="stop1384" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="Fade_Color-4">
+      <stop
+         style="stop-color:#0e00ff;stop-opacity:1"
+         offset="0"
+         id="stop1021" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1"
+         offset="1"
+         id="stop1023" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Fade_Color-4"
+       id="linearGradient1014"
+       x1="493.06516"
+       y1="391.96027"
+       x2="4461.5693"
+       y2="391.96027"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(581.86613,413.20928)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Fade_Dark"
+       id="linearGradient1284"
+       gradientUnits="userSpaceOnUse"
+       x1="493.06516"
+       y1="391.96027"
+       x2="4461.5693"
+       y2="391.96027"
+       gradientTransform="translate(531.26908,1764.2758)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Fade_Color-4"
+       id="linearGradient17988"
+       gradientUnits="userSpaceOnUse"
+       x1="493.06516"
+       y1="391.96027"
+       x2="4461.5693"
+       y2="391.96027"
+       gradientTransform="translate(-1.421875e-4,1289.9527)"
+       spreadMethod="repeat" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Black_back"
+     style="display:inline">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:36.4028;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect13252"
+       width="4735.3521"
+       height="767.38867"
+       x="691.5072"
+       y="421.47525"
+       inkscape:export-filename="\\wsl$\Debian\home\jesper\git\kistan-doc\src\lights\lmixer\pictures\rect13252.png"
+       inkscape:export-xdpi="10.38"
+       inkscape:export-ydpi="10.38" />
+    <rect
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:36.4028;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect13252-8"
+       width="4735.3521"
+       height="767.38867"
+       x="640.91016"
+       y="1772.5419"
+       inkscape:export-filename="\\wsl$\Debian\home\jesper\git\kistan-doc\src\lights\lmixer\pictures\rect13252-8.png"
+       inkscape:export-xdpi="10.38"
+       inkscape:export-ydpi="10.38" />
+    <rect
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:36.4028;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect13252-6"
+       width="4735.3521"
+       height="767.38867"
+       x="666.20856"
+       y="3102.8469"
+       inkscape:export-filename="\\wsl$\Debian\home\jesper\git\kistan-doc\src\lights\lmixer\pictures\rect13252-6.png"
+       inkscape:export-xdpi="10.38"
+       inkscape:export-ydpi="10.38" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="mix-blend-mode:normal;fill:url(#linearGradient1014);fill-opacity:1;stroke:none;stroke-width:40;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect926"
+       width="3968.5039"
+       height="188.97638"
+       x="1074.9313"
+       y="710.6814"
+       inkscape:export-filename="\\wsl$\Debian\home\jesper\git\kistan-doc\src\lights\lmixer\pictures\rect13252.png"
+       inkscape:export-xdpi="10.38"
+       inkscape:export-ydpi="10.38" />
+    <rect
+       style="mix-blend-mode:normal;fill:url(#linearGradient1284);fill-opacity:1;stroke-width:299.16;stroke-linecap:round"
+       id="rect926-1"
+       width="3968.5039"
+       height="188.97638"
+       x="1024.3342"
+       y="2061.748"
+       inkscape:export-filename="\\wsl$\Debian\home\jesper\git\kistan-doc\src\lights\lmixer\pictures\rect13252-8.png"
+       inkscape:export-xdpi="10.38"
+       inkscape:export-ydpi="10.38" />
+    <text
+       xml:space="preserve"
+       style="font-size:192px;line-height:1.25;font-family:sans-serif"
+       x="1964.4463"
+       y="325.73892"
+       id="text5848"><tspan
+         sodipodi:role="line"
+         id="tspan5846"
+         x="1964.4463"
+         y="325.73892"
+         style="font-size:192px;fill:#000000;fill-opacity:1">Fade</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:192px;line-height:1.25;font-family:sans-serif"
+       x="1759.5984"
+       y="1509.8831"
+       id="text5848-7"><tspan
+         sodipodi:role="line"
+         id="tspan5846-0"
+         x="1759.5984"
+         y="1509.8831"
+         style="font-size:192px;fill:#000000;fill-opacity:1">Fade + dim 0.2s </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:192px;line-height:1.25;font-family:sans-serif"
+       x="1350.369"
+       y="2978.8501"
+       id="text5848-7-7"><tspan
+         sodipodi:role="line"
+         id="tspan5846-0-8"
+         x="1350.369"
+         y="2978.8501"
+         style="font-size:192px;fill:#000000;fill-opacity:1">Fade + dimmer on/off </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:69.3333px;line-height:1.25;font-family:sans-serif"
+       x="6964.6904"
+       y="-411.44147"
+       id="text21854"><tspan
+         sodipodi:role="line"
+         id="tspan21852"
+         x="6964.6904"
+         y="-411.44147">s</tspan></text>
+    <g
+       id="g27390"
+       style="stroke:none;stroke-opacity:1"
+       transform="translate(556.5676,1804.6283)"
+       inkscape:export-filename="\\wsl$\Debian\home\jesper\git\kistan-doc\src\lights\lmixer\pictures\rect13252-6.png"
+       inkscape:export-xdpi="10.38"
+       inkscape:export-ydpi="10.38">
+      <g
+         id="g27503">
+        <rect
+           style="mix-blend-mode:normal;fill:url(#linearGradient17988);fill-opacity:1;stroke:none;stroke-width:299.16;stroke-linecap:round;stroke-opacity:1"
+           id="rect926-2"
+           width="3968.5039"
+           height="188.97638"
+           x="493.065"
+           y="1587.4248" />
+        <rect
+           style="mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect926-2-9"
+           width="399.26666"
+           height="188.97638"
+           x="1629.4308"
+           y="1587.4248" />
+        <rect
+           style="mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect926-2-9-0"
+           width="635.0014"
+           height="188.97638"
+           x="3201.7607"
+           y="1587.4248" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:69.3333px;line-height:1.25;font-family:sans-serif"
+       x="8896.6768"
+       y="-131.18423"
+       id="text7522"><tspan
+         sodipodi:role="line"
+         id="tspan7520"
+         x="8896.6768"
+         y="-131.18423">s</tspan></text>
+  </g>
+</svg>
