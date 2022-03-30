@@ -234,6 +234,8 @@ execute("dalicmd -g 255 -c 16")
 Start a script by name. Normally this is used to loop the current script by
 starting it again after some time. Can also be used to split common effects into
 separate script and then combining them.
+OBS, when running a script from another script, add the flag *script_name*._stop = false
+Otherwise the server will not allow the script to start.
 
 | Name | Optional | Description                                     |
 |------|----------|-------------------------------------------------|
