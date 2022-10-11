@@ -92,6 +92,19 @@ module.exports = {
                 ],
             },
             {
+                text: 'Guides',
+                items: [
+                    {
+                        text: 'Sound mixer defaults',
+                        link: '/guides/sound/mixer_defaults'
+                    },
+                    {
+                        text: 'Bar computer to Kitchen speakers',
+                        link: '/guides/sound/bar_to_kitchen'
+                    },
+                ],
+            },
+            {
                 text: 'IN-Sektionen',
                 link: 'https://insektionen.se',
             },
@@ -149,6 +162,16 @@ module.exports = {
                         '/lights/lmixer/examples',
                     ]
                 }
+            ],
+            '/guides/': [
+                {
+                    title: 'Guides',
+                    collapsable: false,
+                    children: [
+                        '/guides/sound/mixer_defaults',
+                        '/guides/sound/bar_to_kitchen',
+                    ]
+                },
             ]
         }
     },
