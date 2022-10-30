@@ -17,7 +17,7 @@ timeline like the picture below.
 ![fade_normal]
 
 It is also possible to change color and lower the intensity at the same time.
-In this case the red color is only set to 20% of the blue colors intensity. 
+In this case the red color is only set to 20% of the blue colors intensity.
 It is also possible to accomplish this using the multi-layer technic below.
 
 ![fade_dim]

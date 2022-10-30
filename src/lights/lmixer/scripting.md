@@ -42,7 +42,7 @@ one layer.
 | Port     | No       | UDP Port to send data on         |
 | Layer    | No       | Layer to send                    |
 
-**Example:** Send the master layer to specified IP on port 1234.
+**Example:** Send the master layer to specified host on port 1234.
 
 ```lua
 output("192.168.1.10", 1234, master)
@@ -87,7 +87,7 @@ Add two fixtures and append them to a group called *lamps*.
 ```lua
 lamp1 = fix(128, 4)
 lamp2 = fix(132, 4)
-lamps = {lamp1, lamp2}
+lamps = { lamp1, lamp2 }
 ```
 
 ### `range`
@@ -177,9 +177,9 @@ cycle(lamps, 100, set, 255, 0, 0, 0)
 Reverse a group of fixtures to use them in backwards order. Is usually used
 inline with cycle command to do effects in reverse order.
 
-| Name         | Optional | Description      |
-|--------------|----------|------------------|
-| Group        | No       | Group to reverse |
+| Name  | Optional | Description      |
+|-------|----------|------------------|
+| Group | No       | Group to reverse |
 
 **Example:** Reverse a group of fixtures called *lamps*.
 
@@ -231,10 +231,11 @@ execute("dalicmd -g 255 -c 16")
 
 ### `run`
 
-Start a script by name. Normally this is used to loop the current script by
+Start a script by name. Normally this is used to repeat the current script by
 starting it again after some time. Can also be used to split common effects into
 separate script and then combining them.
-OBS, when running a script from another script, add the flag *script_name*._stop = false
+OBS, when running a script from another script, add the flag *script_name*._
+stop = false
 Otherwise the server will not allow the script to start.
 
 | Name | Optional | Description                                     |
