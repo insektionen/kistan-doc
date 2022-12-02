@@ -19,7 +19,8 @@
 
 ### Kök L / Kök R
 
-**Location:** A wall mounted box above the refrigerators. Just above the shelf. \
+**Location:** A wall mounted box above the refrigerators. Just above the
+shelf. \
 **Contact-type:** RCA
 
 ### Dansgolv L / Dansgolv R
@@ -29,12 +30,14 @@
 
 ### Mic 1
 
-**Location:** Wireless receiver on the cable tray above the bar close to the beer taps. \
+**Location:** Wireless receiver on the cable tray above the bar close to the
+beer taps. \
 **Contact-type:** Wireless / XLR to mixer
 
 ### Mic 2
 
-**Location:** Wireless receiver on the cable tray above the bar close to the beer taps. \
+**Location:** Wireless receiver on the cable tray above the bar close to the
+beer taps. \
 **Contact-type:** Wireless / XLR to mixer
 
 ### FoG L / FoG R
@@ -49,7 +52,8 @@
 
 ### AUX L / AUX R
 
-**Location:** Auxiliary input from the bar, used for phones or other computers playing sound. \
+**Location:** Auxiliary input from the bar, used for phones or other computers
+playing sound. \
 **Contact-type:** RCA (usually RCA to 3.5 mm cable).
 
 ### Paj L / Paj R

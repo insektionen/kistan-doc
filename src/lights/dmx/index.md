@@ -4,7 +4,6 @@ DMX is a wired protocol for controlling stage and effect lights mainly used on
 big stages and theaters. The protocol is usually run on 5- or 3-pin XLR cables.
 But in some cases network cables is also used.
 
-
 ## DMX Components
 
 DMX protocol specifies some common components that are explained further here.
