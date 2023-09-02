@@ -12,8 +12,8 @@ lights.
 
 #### Universe
 
-A universe is one single DMX network. It has a maximum of 512 channels included
-and that also limits how many fixtures can be used.
+A universe is one single DMX network. It has a maximum of 512 channels and this
+also limits how many fixtures can be added to it.
 
 #### Channel
 
@@ -21,7 +21,7 @@ Each byte in the universe is called a *channel*. A fixture might consume more
 than one channel to receive more data-parameters. An RGB fixture might have one
 channel for red, one for green and one for blue. Normally the setting on the
 fixture is the first channel used by that light. And the manual specifies how
-many channel each fixture uses.
+many channels each fixture uses.
 
 Since the fixtures only read the data that they need in the universe it is
 possible to use several lights on the same channel if they never need to be

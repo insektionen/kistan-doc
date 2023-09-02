@@ -9,7 +9,8 @@ in all classrooms. The DALI protocol specification can be found [here][1].
 
 In a DALI network all the lights store their own information. The controller(s)
 just broadcast instructions to all or some lamps. Instructions are always
-referenced by the command-number found on page 115 in the PDF above.
+referenced by the command-number found on page 115 in the specification linked
+above.
 
 Lamps can be sent commands either by their address (single light) or groups
 (multiple lights). There is also a global group for 'everything' with the group
@@ -40,8 +41,8 @@ dalicmd [-g] [-c] [-s] [-a] [-h] [-r]
 
 | Command-number | Name               |
 |----------------|--------------------|
-| 0              | Off                |
-| 5              | Max                |
+| 0              | Go to Off          |
+| 5              | Go to Max          |
 | 16 - 31        | Go to scene 0 - 15 |
 
 ## DALI Mappings in Kistan
@@ -53,12 +54,28 @@ lights and their addresses in Kistan.
 
 ![dali_map]
 
+### Special addresses
+
+Some special addresses is used to control relays for different roof outlets. The
+DALI relays is mounted in the electrical cabinet in Spritförrådet.
+
+| Address | Name                                |
+|---------|-------------------------------------|
+| 25      | Relay 1.1 Roof closer to microwaves |
+| 26      | Relay 1.2 Roof closer to windows    |
+| 27      | Relay 1.3 Microwave bench lights    |
+| 28      | Relay 1.3 Not connected             |
+| 39      | Relay 2.1                           |
+| 40      | Relay 2.2 Roof on dance floor       |
+| 41      | Relay 2.3                           |
+| 42      | Relay 2.4                           |
+
 ### Groups
 
 | Group number | Name                      |
 |--------------|---------------------------|
 | 0            | Bar                       |
-| 1            | Bar (shelves)             |
+| 1            | Bar (above shelves)       |
 | 2            | Hanging (sofas)           |
 | 3            | Hanging (dance floor)     |
 | 4            | Florescence (dance floor) |

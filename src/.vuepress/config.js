@@ -55,6 +55,10 @@ module.exports = {
                         text: 'Roof LED',
                         link: '/drawings/roof_led/',
                     },
+                    {
+                        text: 'Pipes',
+                        link: '/drawings/pipes/'
+                    }
                 ]
             },
             {
@@ -62,12 +66,16 @@ module.exports = {
                 items: [
                     {
                         text: 'Inputs/Outputs',
-                        link: '/sound/in_out/',
+                        link: '/sound/in_out',
                     },
                     {
                         text: 'Mixer',
-                        link: '/sound/mixer/',
+                        link: '/sound/mixer',
                     },
+                    {
+                        text: 'Amplifiers',
+                        link: '/sound/amplifiers'
+                    }
                 ],
             },
             {
@@ -119,6 +127,7 @@ module.exports = {
                         '/drawings/sound_cables',
                         '/drawings/dmx_net',
                         '/drawings/roof_led',
+                        '/drawings/pipes'
                     ]
                 }
             ],
@@ -127,8 +136,9 @@ module.exports = {
                     title: 'Sound',
                     collapsable: false,
                     children: [
-                        '/sound/in_out/',
-                        '/sound/mixer/',
+                        '/sound/in_out',
+                        '/sound/mixer',
+                        '/sound/amplifiers',
                     ]
                 }
             ],
