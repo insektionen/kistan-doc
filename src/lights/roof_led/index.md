@@ -19,14 +19,15 @@ using UDP.
 
 
 ## Raspberry Pi 3b+
-Is used to control the roof LEDs. It is powered with normal a outlet and connected to the internet with a LAN cable.
+Is used to control the roof LEDs. It is powered with a normal USB Power supply and is connected to the internet with a LAN cable.
 
 ![rpi_image]
 
 [rpi_image]: ./images/RPI_image.jpg "The pinout of the Raspberry Pi 3b+"
 
 
-The black wire is connected to ground on pin number 4(GND)</br>
+The black wire is connected to ground on pin number 4(GND)
+
 The green wire is connected to data on pin number 12(GPIO18)
 
 ![rpi_connection]
