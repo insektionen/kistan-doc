@@ -1,20 +1,13 @@
-const {description} = require('../../package')
+import {searchPlugin} from "@vuepress/plugin-search";
+import {defineUserConfig} from 'vuepress'
+import {defaultTheme} from "@vuepress/theme-default";
+import viteBundler from "@vuepress/bundler-vite";
 
-module.exports = {
-    /**
-     * Ref：https://v1.vuepress.vuejs.org/config/#title
-     */
+export default defineUserConfig({
+    lang: 'en-US',
     title: 'Kistan 2.0 Doc',
-    /**
-     * Ref：https://v1.vuepress.vuejs.org/config/#description
-     */
-    description: description,
+    description: "Documentation for everything in Kistan 2.0",
 
-    /**
-     * Extra tags to be injected to the page HTML `<head>`
-     *
-     * ref：https://v1.vuepress.vuejs.org/config/#head
-     */
     head: [
         ['meta', {name: 'theme-color', content: '#3eaf7c'}],
         ['meta', {name: 'apple-mobile-web-app-capable', content: 'yes'}],
@@ -23,47 +16,48 @@ module.exports = {
             content: 'black'
         }]
     ],
-
-    /**
-     * Theme configuration, here is the default theme configuration for VuePress.
-     *
-     * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
-     */
-    themeConfig: {
-        repo: '',
-        editLinks: false,
-        docsDir: '',
-        editLinkText: '',
+    plugins: [
+        searchPlugin({}),
+    ],
+    bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {},
+  }),
+    theme: defaultTheme({
+        editLink: true,
+        docsRepo: 'https://github.com/insektionen/kistan-doc',
+        docsBranch: 'master',
+        docsDir: 'src',
         lastUpdated: true,
-        nav: [
+        navbar: [
             {
                 text: 'Drawings',
-                items: [
+                children: [
                     {
                         text: 'Furniture',
-                        link: '/drawings/furniture/',
+                        link: '/drawings/furniture.html',
                     },
                     {
                         text: 'Sound cables',
-                        link: '/drawings/sound_cables/',
+                        link: '/drawings/sound_cables.html',
                     },
                     {
                         text: 'DMX network',
-                        link: '/drawings/dmx_net/'
+                        link: '/drawings/dmx_net.html'
                     },
                     {
                         text: 'Roof LED',
-                        link: '/drawings/roof_led/',
+                        link: '/drawings/roof_led.html',
                     },
                     {
                         text: 'Pipes',
-                        link: '/drawings/pipes/'
+                        link: '/drawings/pipes.html'
                     }
                 ]
             },
             {
                 text: 'Sound',
-                items: [
+                children: [
                     {
                         text: 'Inputs/Outputs',
                         link: '/sound/in_out',
@@ -80,7 +74,7 @@ module.exports = {
             },
             {
                 text: 'Lights',
-                items: [
+                children: [
                     {
                         text: 'DALI',
                         link: '/lights/dali/',
@@ -101,7 +95,7 @@ module.exports = {
             },
             {
                 text: 'Guides',
-                items: [
+                children: [
                     {
                         text: 'Sound mixer defaults',
                         link: '/guides/sound/mixer_defaults'
@@ -120,8 +114,8 @@ module.exports = {
         sidebar: {
             '/drawings/': [
                 {
-                    title: 'Drawings',
-                    collapsable: false,
+                    text: 'Drawings',
+                    collapsible: false,
                     children: [
                         '/drawings/furniture',
                         '/drawings/sound_cables',
@@ -133,8 +127,8 @@ module.exports = {
             ],
             '/sound/': [
                 {
-                    title: 'Sound',
-                    collapsable: false,
+                    text: 'Sound',
+                    collapsible: false,
                     children: [
                         '/sound/in_out',
                         '/sound/mixer',
@@ -144,8 +138,8 @@ module.exports = {
             ],
             '/lights/dmx/': [
                 {
-                    title: 'DMX',
-                    collapsable: false,
+                    text: 'DMX',
+                    collapsible: false,
                     children: [
                         '/lights/dmx/',
                         '/lights/dmx/kistan',
@@ -154,8 +148,8 @@ module.exports = {
             ],
             '/lights/dali': [
                 {
-                    title: 'DALI',
-                    collapsable: false,
+                    text: 'DALI',
+                    collapsible: false,
                     children: [
                         '/lights/dali/',
                     ]
@@ -163,8 +157,8 @@ module.exports = {
             ],
             '/lights/lmixer/': [
                 {
-                    title: 'LMixer',
-                    collapsable: false,
+                    text: 'LMixer',
+                    collapsible: false,
                     children: [
                         '/lights/lmixer/',
                         '/lights/lmixer/scripting',
@@ -175,8 +169,8 @@ module.exports = {
             ],
             '/guides/': [
                 {
-                    title: 'Guides',
-                    collapsable: false,
+                    text: 'Guides',
+                    collapsible: false,
                     children: [
                         '/guides/sound/mixer_defaults',
                         '/guides/sound/bar_to_kitchen',
@@ -184,13 +178,5 @@ module.exports = {
                 },
             ]
         }
-    },
-
-    /**
-     * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-     */
-    plugins: [
-        '@vuepress/plugin-back-to-top',
-        '@vuepress/plugin-medium-zoom',
-    ]
-}
+    })
+});
