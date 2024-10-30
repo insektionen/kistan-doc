@@ -143,6 +143,7 @@ export default defineUserConfig({
                     children: [
                         '/lights/dmx/',
                         '/lights/dmx/kistan',
+                        '/lights/dmx/kistan_fixtures',
                     ]
                 }
             ],

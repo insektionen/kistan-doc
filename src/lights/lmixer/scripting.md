@@ -234,9 +234,12 @@ execute("dalicmd -g 255 -c 16")
 Start a script by name. Normally this is used to repeat the current script by
 starting it again after some time. Can also be used to split common effects into
 separate script and then combining them.
-OBS, when running a script from another script, add the flag *script_name*._
-stop = false
-Otherwise the server will not allow the script to start.
+
+:::note
+When running a script from another script and it has been previously stopped,
+add the flag `script_name*._stop = false`. Otherwise, it will not be placed on
+the timeline.
+:::
 
 | Name | Optional | Description                                     |
 |------|----------|-------------------------------------------------|
@@ -247,6 +250,12 @@ Otherwise the server will not allow the script to start.
 ```lua
 run("rainbow")
 ```
+
+:::danger
+If not careful one might cause stacking of script if the run command is issued
+before the last effect of the previous run. This causes an infinite loop of
+scripts starting on top of each other until something crashes.
+:::
 
 ### `play`
 

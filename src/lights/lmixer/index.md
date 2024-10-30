@@ -2,6 +2,11 @@
 
 **GitHub:** [https://github.com/Daedaluz/lmixer][1]
 
+LMixer is a mixing engine for lights built using small lua-scripts. The current
+version is built with [lua 5.4][2] and some extensions. It renders a new frame
+at 30 FPS, which is once every 32ms. A shorter time between two effects will not
+be visible.
+
 ## Components
 
 The LMixer software is made up of a couple of different components.
@@ -37,7 +42,24 @@ that the repeat time is longer than the script time to not create overlapping.
 Scripts are the main part of the LMixer and is where most code is written.
 
 Scripts does not have a "running" state since each script only manipulates the
-timeline ahead. However, it is possible to "stop" a script. This tells lmixer to
+timeline ahead. However, it is possible to "stop" a script. This tells LMixer to
 not apply any "run" commands to it again.
 
+Any script can be removed by just making it completely empty and pressing run.
+To rename a script the easiest way is to copy all code to the new one and then
+deleting the old.
+
+:::tip
+The editor can save without running a script by pressing CTRL+S. Useful
+for a looping script that loads the change on the next iteration.
+:::
+
+### Code
+
+This act like a script but are only run once at startup (or when manually
+triggered by the run function). Here some extra global code and different
+utility functions can be placed.
+
 [1]: https://github.com/Daedaluz/lmixer
+
+[2]: https://www.lua.org/manual/5.4/manual.html
